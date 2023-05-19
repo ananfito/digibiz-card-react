@@ -18,6 +18,7 @@ This stactic React page acts a digial business cart. It features profile image, 
 Requirements: 
 
 - Build from scratch!
+- Follow the [Figma file design specifications](https://www.figma.com/file/4ctPLUvIn5b5Ep6YPOZWWd/Digital-Business-Card?type=design&node-id=0-1&t=qlRu4znl6cykY337-0)
 - Fill in your own information
 - Separate components for:
     - Info (photo, name, buttons, etc.)
@@ -41,7 +42,7 @@ I started this project by sketching out the various components on paper. This he
 
 ## Status
 
-A live version can be viewed at: 
+A live version can be viewed at: https://ananfito.netlify.app/ 
 
 ## Connect
 
