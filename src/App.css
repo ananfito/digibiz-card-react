@@ -1,42 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* Base Styles */
+
+body {
+  color: #2B283A;
+  background-color: #23252C;
+  font-family: 'Roboto Mono', sans-serif;
+}
+
+p {
+  color: #4A4E74;
+}
+
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  border-radius: 5px;
+}
+
+.container {
+  max-width: 375px;
+}
+
+.main-content {
+  padding: 0.5em 2em;
+  background-color: #F5F5F5;
+}
+
+.section-header {
+  margin-bottom: 0.25em;
+}
+
+.interests--text {
+  padding-bottom: 1em;
+}
+
+/* Profile Image */
+
+.profile-container {
+  background-color: #23252C;
+  height: 375px;
+}
+
+.profile {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: #23252C;
+  width: 100%;
+}
+
+.profile > img {
+  width: 100%;
+}
+
+/* Profile Info */
+
+.header, .subheader, .website-link {
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.header {
+  padding: 1em 0 0.15em;
+  font-size: 1.75rem;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.subheader {
+  color: #F47D27;
+  font-size: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.website-link {
+  margin: .9em 0 1.1em;
+  font-size: .9rem;
 }
 
-.card {
-  padding: 2em;
+.website-link > a {
+  color: #4A4E74;
 }
 
-.read-the-docs {
-  color: #888;
+.website-link > a:hover {
+  color: #23252C;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 0.5em 3.1em;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+#btn-email {
+  border: 1px solid #D1D5DB;
+  color: #374151;
+  background-color: #fff;
+}
+
+#btn-email:hover, #btn-linkedin:hover {
+  color: #fff;
+  background-color: #23252C;
+}
+
+#btn-linkedin {
+  color: #fff;
+  background-color: #297FE5;
+  padding: 0.5em 2.5em;
+  
+}
+
+.btn > i {
+  margin-right: .25em;
+}
+
+/* Footer */
+
+footer {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  text-align: center;
+  background-color: #D5D4D8;
+  color: #D5D4D8;
+  font-size: 2rem;
+  padding: .25em 0;
+}
+
+.social-link {
+  color: #918E9B;
+  margin: 0 .35em;
 }
